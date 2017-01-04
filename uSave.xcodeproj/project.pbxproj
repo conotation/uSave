@@ -12,6 +12,7 @@
 		B60558A11E1BBD7D00698B37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60558A01E1BBD7D00698B37 /* Assets.xcassets */; };
 		B60558A41E1BBD7D00698B37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60558A21E1BBD7D00698B37 /* LaunchScreen.storyboard */; };
 		B6F92C4A1E1CD32E0002E26E /* TEST.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6F92C481E1CD32E0002E26E /* TEST.storyboard */; };
+		B6F92C4C1E1CE5F50002E26E /* uList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F92C4B1E1CE5F50002E26E /* uList.swift */; };
 		EE2B2011A57A142FC6E35B6C /* Pods_uSave.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E3FF1579D3E5F10A687CED4 /* Pods_uSave.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		B60558A31E1BBD7D00698B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B60558A51E1BBD7D00698B37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6F92C491E1CD32E0002E26E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TEST.storyboard; sourceTree = "<group>"; };
+		B6F92C4B1E1CE5F50002E26E /* uList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uList.swift; sourceTree = "<group>"; };
 		DEE7EC87C313877EFF461E02 /* Pods-uSave.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uSave.debug.xcconfig"; path = "Pods/Target Support Files/Pods-uSave/Pods-uSave.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +78,7 @@
 				B60558A01E1BBD7D00698B37 /* Assets.xcassets */,
 				B60558A21E1BBD7D00698B37 /* LaunchScreen.storyboard */,
 				B60558A51E1BBD7D00698B37 /* Info.plist */,
+				B6F92C4B1E1CE5F50002E26E /* uList.swift */,
 			);
 			path = uSave;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			files = (
 				B605589C1E1BBD7D00698B37 /* ViewController.swift in Sources */,
 				B605589A1E1BBD7D00698B37 /* AppDelegate.swift in Sources */,
+				B6F92C4C1E1CE5F50002E26E /* uList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
