@@ -1,0 +1,6 @@
+framework module Pods_uSave {
+  umbrella header "Pods-uSave-umbrella.h"
+
+  export *
+  module * { export * }
+}
